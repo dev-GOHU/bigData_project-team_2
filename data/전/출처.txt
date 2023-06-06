@@ -1,0 +1,48 @@
+./공공 자전거 대여 이력/공공자전거 대여이력 명세서.xlsx
+
+=======================================
+
+./대학 학과 계열/한국대학교육협의회_대학알리미 대학별 학과정보_20220310.csv: https://www.data.go.kr/data/15014632/fileData.do
+
+=======================================
+
+./범죄자 교육 정도/경찰청_범죄자 교육정도_12_31_2020: https://www.data.go.kr/data/3074472/fileData.do?recommendDataYn=Y
+
+=======================================
+
+./수능 관련/수능 연도별 응시원서 접수현황, 응시현황, 채점현황(2019.12)/: https://www.data.go.kr/data/15001549/fileData.do
+
+./수능 관련/2018학년도 전문대학 수시,정시 모집계획.xls: https://www.data.go.kr/data/3077936/fileData.do
+
+=======================================
+
+./입학자 유형별 학생수/2022_입학자 유형별 학생수.xlsx: https://kess.kedi.re.kr/stats/school?menuCd=0102&cd=5504&survSeq=2022&itemCode=01&menuId=m_010204&uppCd1=010204&uppCd2=010204&flag=B
+
+=======================================
+
+./초중등학교 정보공시 학생 및 학급 현황_2020/ : https://www.data.go.kr/data/15037483/fileData.do?recommendDataYn=Y
+
+=======================================
+
+./폐교현황/강원도교육청_폐교현황_20190301.xlsx: https://www.data.go.kr/data/3037940/fileData.do?recommendDataYn=Y
+
+./폐교현황/제주특별자치도교육청_폐교정보_20230424.csv: https://www.data.go.kr/data/3071404/fileData.do?recommendDataYn=Y
+
+=======================================
+
+./학과수 및 학년별 재적학생수/2022_학과수 및 학년별 재적학생수.xlsx: https://kess.kedi.re.kr/stats/school?menuCd=0102&cd=5500&survSeq=2022&itemCode=01&menuId=m_010204&uppCd1=010204&uppCd2=010204&flag=B
+
+=======================================
+
+./학교 현황/대구광역시교육청 학교현황_20220401.csv: https://www.data.go.kr/data/15015254/fileData.do?recommendDataYn=Y
+
+=======================================
+
+./한국교육개발원_대학 개황_20220401/ : https://www.data.go.kr/data/15053812/fileData.do
+
+=======================================
+
+./한국교육개발원_대학별 학과별 모집인원 및 졸업자 현황_20220401/ : https://www.data.go.kr/data/15053809/fileData.do
+
+=======================================
+
