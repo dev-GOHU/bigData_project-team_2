@@ -1,3 +1,13 @@
+#Flag.Codes: 데이터 상태
+## ..Not available
+# B Break in series
+# E Estimated value
+# F Forecast value
+# X Not applicable
+# P Provisional data
+# S Strike
+# - Nil
+
 # working Directory 설정 및 필요 패키지 설치 및 적용
 install.packages("rstudioapi")
 setwd(dirname(rstudioapi::getActiveDocumentContext()$path))
@@ -11,7 +21,7 @@ emp = read.csv("./Employment_rate.csv",
                       quote = "\"")
 
 emp <- emp %>%
-  filter(Flag.Codes=="" & SUBJECT=="TOT" & nchar(TIME)==4 & MEASURE=="PC_WKGPOP" & !is.na(Value)) %>%
+  filter(Flag.Codes=="" & SUBJECT=="TOT" & FREQUENCY=="A" & MEASURE=="PC_WKGPOP" & !is.na(Value)) %>%
   select(LOCATION, TIME, Value)
 
 emp$TIME = as.integer(emp$TIME)
@@ -69,7 +79,7 @@ names(wages)[names(wages)=="Value"] = "WAGES"
 
 ##################
 # 병합
-EMP_data <- employment %>%
+EMP_data <- emp %>%
   merge(univ, by=c("LOCATION", "TIME")) %>%
   merge(gdp, by=c("LOCATION", "TIME")) %>%
   merge(lfp_tot, by=c("LOCATION", "TIME")) %>%
